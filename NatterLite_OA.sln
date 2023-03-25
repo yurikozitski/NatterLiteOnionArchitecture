@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56C33265-B1BB-49E9-B521-16857F2BA9FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6028D257-7390-4EDE-A57A-69B98B2FAD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatterLite_OA.WebUI", "NatterLite_OA.WebUI\NatterLite_OA.WebUI.csproj", "{91228357-C813-4EEC-90C2-B4DC1A4CB635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatterLite_OA.Core", "NatterLite_OA.Core\NatterLite_OA.Core.csproj", "{43456E7A-1259-4BE8-8B2B-334D523C5F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatterLite_OA.Infrastructure", "NatterLite_OA.Infrastructure\NatterLite_OA.Infrastructure.csproj", "{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatterLite_OA.Tests", "NatterLite_OA.Tests\NatterLite_OA.Tests.csproj", "{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91228357-C813-4EEC-90C2-B4DC1A4CB635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91228357-C813-4EEC-90C2-B4DC1A4CB635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91228357-C813-4EEC-90C2-B4DC1A4CB635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91228357-C813-4EEC-90C2-B4DC1A4CB635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43456E7A-1259-4BE8-8B2B-334D523C5F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43456E7A-1259-4BE8-8B2B-334D523C5F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43456E7A-1259-4BE8-8B2B-334D523C5F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43456E7A-1259-4BE8-8B2B-334D523C5F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91228357-C813-4EEC-90C2-B4DC1A4CB635} = {56C33265-B1BB-49E9-B521-16857F2BA9FC}
+		{43456E7A-1259-4BE8-8B2B-334D523C5F52} = {56C33265-B1BB-49E9-B521-16857F2BA9FC}
+		{8E7ACA5E-ACD3-404C-BE48-1229AAE9FADB} = {56C33265-B1BB-49E9-B521-16857F2BA9FC}
+		{9DDAEEB9-20AD-48DF-B399-D42BEACE6F90} = {6028D257-7390-4EDE-A57A-69B98B2FAD0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC92551D-8025-4633-872A-05307E9C1C7F}
+	EndGlobalSection
+EndGlobal
