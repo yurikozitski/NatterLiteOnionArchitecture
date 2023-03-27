@@ -103,7 +103,7 @@ namespace NatterLite_OA.WebUI.Controllers
                                 }
                                 if (currentchatId == chatViewModel.ChatId)
                                 {
-                                    chatViewModel.UnreadMessagesCount = 0.ToString();
+                                    chatViewModel.UnreadMessagesCount = "0";
                                 }
                                 else
                                 {
@@ -122,7 +122,7 @@ namespace NatterLite_OA.WebUI.Controllers
                             }
                             else
                             {
-                                chatViewModel.UnreadMessagesCount = 0.ToString();
+                                chatViewModel.UnreadMessagesCount = "0";
                             }
                         }
                         else
@@ -130,7 +130,7 @@ namespace NatterLite_OA.WebUI.Controllers
                             chatViewModel.TimeForCompare = chat.CreationTime;
                             chatViewModel.LastMessageTime = new DateTime();
                             chatViewModel.LastMessageText = " ";
-                            chatViewModel.UnreadMessagesCount = 0.ToString();
+                            chatViewModel.UnreadMessagesCount = "0";
                         }
 
                         chatViewModel.CompanionUserName = chat.Users.Find(u => u.Id != currentUser.Id).FullName;
