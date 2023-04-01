@@ -13,3 +13,13 @@
 2023-03-27 14:50:37.6184 Info Registered target NLog.Targets.FileTarget(Name=errors)
 2023-03-27 14:50:37.7054 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
 2023-03-27 14:50:41.6906 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
+2023-04-01 13:12:08.7455 Info Message Template Auto Format enabled
+2023-04-01 13:12:08.8545 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-01 13:12:09.0275 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2023-04-01 13:12:09.1525 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
+2023-04-01 13:12:12.9608 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
+2023-04-01 13:22:30.1451 Info Message Template Auto Format enabled
+2023-04-01 13:22:30.1951 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-01 13:22:30.3981 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2023-04-01 13:22:30.4851 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
+2023-04-01 13:22:34.0173 Info Validating config: TargetNames=errors, ConfigItems=16, FilePath=C:\MyApps\NatterLite_OA\NatterLite_OA.WebUI\bin\Debug\net5.0\nlog.config
