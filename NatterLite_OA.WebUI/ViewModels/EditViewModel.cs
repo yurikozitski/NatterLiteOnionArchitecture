@@ -12,12 +12,12 @@ namespace NatterLite_OA.WebUI.ViewModels
     {
         [Required(ErrorMessage = "First name is required")]
         [StringLength(20, MinimumLength = 3, ErrorMessage = "Name should have from 3 to 20 symbols")]
-        [RegularExpression("^[A-Za-z'-]{1,}", ErrorMessage = "Only letters and ' - are allowed")]
+        [RegularExpression("^[А-Яа-яA-Za-z'-іІїЇЄє]{1,}", ErrorMessage = "Only letters and ' - are allowed")]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Last name is required")]
         [StringLength(20, MinimumLength = 3, ErrorMessage = "Name should have from 3 to 20 symbols")]
-        [RegularExpression("^[A-Za-z'-]{1,}", ErrorMessage = "Only letters and ' - are allowed")]
+        [RegularExpression("^[А-Яа-яA-Za-z'-іІїЇЄє]{1,}", ErrorMessage = "Only letters and ' - are allowed")]
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Unique name is required")]

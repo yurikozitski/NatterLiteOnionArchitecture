@@ -143,7 +143,7 @@ namespace NatterLite_OA.WebUI.Controllers
                 }
                 try
                 {
-                    string userPicturePath = @$"C:\MyApps\NatterLite\wwwroot\SignedUsersPics\{user.UserName}.jpg";
+                    string userPicturePath = Directory.GetCurrentDirectory() + @$"\wwwroot\SignedUsersPics\{user.UserName}.jpg";
                     using (Image image = Image.FromStream(new MemoryStream(user.ProfilePicture)))
                     {
                         image.Save(userPicturePath, ImageFormat.Jpeg);

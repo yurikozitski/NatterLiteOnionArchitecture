@@ -74,7 +74,8 @@
         var profilePicture = document.cookie.replace(/(?:(?:^|.*;\s*)userPicturePath\s*\=\s*([^;]*).*$)|^.*$/, "$1");
         document.getElementById("profilePicture").setAttribute("src", "/SignedUsersPics/" + profilePicture);
         var userName = document.cookie.replace(/(?:(?:^|.*;\s*)userName\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        userName = userName.replace('%20', ' ');
+        //userName = userName.replace('%20', ' ');
+        userName = decodeURIComponent(userName);
         document.getElementById("userName_").appendChild(document.createTextNode(userName));
     </script>
     @await Html.PartialAsync("_ValidationScriptsPartial")
